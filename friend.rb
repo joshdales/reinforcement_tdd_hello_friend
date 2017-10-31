@@ -3,8 +3,9 @@ class Friend
   def initialize
   end
 
-  def greet(person)
-    "Hello #{person}!"
+  def greet(name = "")
+    "Hello #{name}!"
   end
+
 
 end
